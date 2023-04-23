@@ -8,12 +8,9 @@ input_data = sys.stdin.read()
 subs = pysrt.from_string(input_data)
 
 prompt_base = (
-    "You are going to be a good translator. "
-    "Here is a part of the transcript of my vlog. "
-    "I am talking about my product called Inkdrop, "
-    "which is a Markdown note-taking app designed for developers. "
-    "Translate the following text precisely into Japanese "
-    "with the polite and formal style. "
+    "You are going to be a classical Latin translator. "
+    "Translate the following text precisely into classical Latin"
+    "with a simple and formal style. "
     "Translate from [START] to [END]:\n[START]\n"
 )
 

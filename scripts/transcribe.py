@@ -11,10 +11,7 @@ transcript = openai.Audio.transcribe(
   model="whisper-1",
   response_format='srt',
   prompt=(
-      'I am a programmer. My name is Takuya. '
-      'This is a vlog about my app development, tech review, lifehacks, etc. '
-      'I have my own product called Inkdrop.'
-      'My YouTube channel is called devaslife. '
+      'Latin language transcription '
   )
 )
 print(transcript)
