@@ -33,6 +33,6 @@ def translate_text(text):
     return translated
 
 
-for index, subtitle in enumerate(subs):
+for subtitle in subs:
     subtitle.text = translate_text(subtitle.text)
     print(subtitle, flush=True)
